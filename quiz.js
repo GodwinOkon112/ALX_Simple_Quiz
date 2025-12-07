@@ -8,7 +8,7 @@ function checkAnswer() {
     feedback.style.color = "green";
     console.log(yes);
   } else {
-    feedback.textContent = "that's Incorrect. Try again!";
+    feedback.textContent = "That's incorrect. Try again!";
     feedback.style.color = "red";
   }
 }
