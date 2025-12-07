@@ -7,12 +7,11 @@ function checkAnswer() {
     feedback.textContent = "Correct! Well done.";
     feedback.style.color = "green";
     console.log(yes);
-    
   } else {
-    feedback.textContent = "that's Incorrect. Please try again.";
+    feedback.textContent = "that's Incorrect. Try again!";
     feedback.style.color = "red";
   }
 }
 let submitButton = document.getElementById("submit-answer");
 
-submitButton.addEventListener("submit", checkAnswer);
+submitButton.addEventListener("click", checkAnswer);
